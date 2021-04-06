@@ -1,0 +1,9 @@
+
+git init 				  -  create repository 
+git status				  - to see the status
+git add "<file name>" 		  -  add the file in staging 
+git add --a				  -  add the all the file in staging 
+git commit "<file name > " -m "Message "   -  to commit
+git commit  -m "Message"  		  - to commit all file from staging 
+rm -rf .git 			 	  - to delete the repository 
+touch <file name.extenstion>		  - create a file
