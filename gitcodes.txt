@@ -1,6 +1,11 @@
 
+git config --global user.name "name"	  - Enter a user name
+git config --global user.mail "mail"	  - Enter a mail
+git config user.name			  - view user name
+git config user.mail			  - view user mail
 git init 				  -  create repository 
 git status				  - to see the status
+git log				  - to view all the commits
 git add "<file name>" 		  -  add the file in staging 
 git add --a				  -  add the all the file in staging 
 git commit "<file name > " -m "Message "   -  to commit
