@@ -12,3 +12,8 @@ git commit "<file name > " -m "Message "   -  to commit
 git commit  -m "Message"  		  - to commit all file from staging 
 rm -rf .git 			 	  - to delete the repository 
 touch <file name.extenstion>		  - create a file
+git clone <Url>			  -taking repository from the network
+git clone <Url> "new name "		  -changing the name while cloning the repository from the nework
+ls				  - to view the list of files in the directory
+pwd                                             		  - to see the present directory
+cd				  - to change the directory
