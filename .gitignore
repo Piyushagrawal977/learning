@@ -1,7 +1,6 @@
 *.log
 error
 great
-hello
 superb.txt
 even a directory can also be ignore
 like dir/
