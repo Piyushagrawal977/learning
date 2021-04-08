@@ -17,3 +17,8 @@ git clone <Url> "new name "		  -changing the name while cloning the repository f
 ls				  - to view the list of files in the directory
 pwd                                             		  - to see the present directory
 cd				  - to change the directory
+touch .gitignore			  - creating a file for ignoring the directory and files
+git diff 				  - comparing the working directory to staging area
+git diff --staged			  - comparing the working directory to previous commit
+git restore  --staged 	<file name> 	  - to restor staging file
+
