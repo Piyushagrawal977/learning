@@ -23,4 +23,6 @@ git diff 				  - comparing the working directory to staging area
 git diff --staged			  - comparing the working directory to previous commit
 git restore  --staged 	<file name> 	  - to restor staging file
 git commit -a -m " "			  - Direct commit without staging (it commit only track file )
-
+git rm <file name>			  - remove file from directory
+git rm --cached <file name>		  - make the file untrack 
+git mv <old file name> <new file name>      - rename the file 
