@@ -25,6 +25,8 @@ git commit -a -m " "			  - Direct commit without staging (it commit only track f
 git rm <file name>			  - remove file from directory
 git rm --cached <file name>		  - make the file untrack 
 git mv <old file name> <new file name>      - rename the file 
+git checkout -- <file name >		  - to restore the working file to previous commit
+git checkout -- <file name >		  - to restore the all the file to previous commit 
 
 git log				  - to view all the commits
 git log -p/--patch			  - to view the commit with details
