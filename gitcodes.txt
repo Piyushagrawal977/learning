@@ -5,7 +5,6 @@ git config user.name			  - view user name
 git config user.mail			  - view user mail
 git init 				  -  create repository 
 git status				  - to see the status
-git log				  - to view all the commits
 git add "<file name>" 		  -  add the file in staging 
 git add --a				  -  add all the file in staging 
 git add .     				  - add all the file in staging 
@@ -26,3 +25,22 @@ git commit -a -m " "			  - Direct commit without staging (it commit only track f
 git rm <file name>			  - remove file from directory
 git rm --cached <file name>		  - make the file untrack 
 git mv <old file name> <new file name>      - rename the file 
+
+git log				  - to view all the commits
+git log -p/--patch			  - to view the commit with details
+git log -p -1 			  - to view the commit with one details 
+git log --stat 			  - to view the commit with short details 
+git log --oneline  			  - to view all the commit statement
+git log --graph 			  - to view the author , date and commit message
+git log --graph -1  			  - to view the only one commit (author, date, commit msg)
+git log --since=2.days/month/year	  - to view the commits for a day/month/year
+git log --after="yy-mm-dd"		  - to view the commits after a Particular date
+git log --author="Author name "	  - to view the commit for the particular author 
+git log --grep="commit msg" 		  - to view the commit for the particular commit msg
+git log --pretty=oneline	  	  - to view all the commit statement
+git log --pretty=short
+git log --pretty=full
+git log --pretty=format:"%h--%an"         	  - to view the commits as per your requirments
+				     https://git-scm.com/docs/pretty-formats
+
+
